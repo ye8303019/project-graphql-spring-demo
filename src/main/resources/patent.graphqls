@@ -1,0 +1,12 @@
+type Patent {
+    # Patent unique id
+    id: String
+    # Patent number
+    pn: String
+    # A list of patent IPC code
+    ipc: [String]
+    # The Assignee of the patent
+    assignee: Assignee
+    # A list of inventors of the patent
+    inventor: [Inventor]
+}

@@ -1,0 +1,32 @@
+interface Person {
+    # Person name
+    name: String
+    # Person age
+    age: Int
+    # Person address
+    address: String
+}
+
+# The assignee of the patent
+type Assignee implements Person {
+    # The name of the assignee
+    name: String
+    # The age of the assignee
+    age: Int
+    # The address of the assignee
+    address: String
+    # The normalized name of the assignee
+    nname: String
+}
+
+# The inventor of the patent
+type Inventor implements Person {
+    # The name of the inventor
+    name: String
+    # The age of the inventor
+    age: Int
+    # The address of the inventor
+    address: String
+    # The country of the inventor
+    country: String
+}

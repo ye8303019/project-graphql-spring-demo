@@ -1,0 +1,4 @@
+type Query {
+    # Get patent information by a patent id
+    patent(patent_id: String):Patent
+}
